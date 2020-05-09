@@ -22,4 +22,4 @@ FROM openjdk:8-jre-alpine
 ADD target/calculator-1.0-SNAPSHOT.jar calculator-1.0-SNAPSHOT.jar
 #COPY --from=build calc/target/calculator-1.0-SNAPSHOT.jar calc
 
-CMD ["java -jar calculator-1.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar", "calculator-1.0-SNAPSHOT.jar"]
