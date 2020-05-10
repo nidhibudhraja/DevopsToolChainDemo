@@ -2,6 +2,7 @@ package com.spe;
 
 public class Calculator {
     public static void main(String[] args) {
+        System.out.println("SIMPLE CALCULATOR FOR DEVOPS TOOL CHAIN DEMO");
         System.out.println("add 6+4="+add(6,4));
         System.out.println("subtraction 6-4="+subtract(6,4));
         System.out.println("multiplication 6*4="+multiply(6,4));
